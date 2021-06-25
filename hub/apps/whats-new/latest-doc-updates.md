@@ -2,7 +2,7 @@
 description: Discover the latest additions to the Windows developer docs.
 title: Latest updates to the Windows developer docs
 ms.topic: article
-ms.date: 5/13/2021
+ms.date: 6/9/2021
 ms.localizationpriority: medium
 ms.author: quradic
 author: QuinnRadich
@@ -10,7 +10,7 @@ author: QuinnRadich
 
 # Latest updates to the Windows developer docs
 
-The Windows developer docs are regularly updated with new and improved information and content. Here is a summary of changes as of May 12th, 2021.
+The Windows developer docs are regularly updated with new and improved information and content. Here is a summary of changes as of June 9th, 2021.
 
 Note: For a specific list of APIs added as part of Windows 10 build 19041 (also known as 2004), please see [this list](/windows/uwp/whats-new/windows-10-build-19041-api-diff).
 
@@ -22,96 +22,85 @@ Many thanks to everyone who has contributed to the documentation. Your correctio
 
 Highlights this month include:
 
-### Updated topics
+### Project Reunion
 
-* [Windows Runtime APIs not supported in desktop apps](https://docs.microsoft.com/windows/apps/desktop/modernize/desktop-to-uwp-supported-api)
-* [DWriteCore](https://docs.microsoft.com/windows/win32/directwrite/dwritecore-overview)
-* [XamlListDetail](https://github.com/stevewhims/XamlListDetail)
-* [Direct Machine Learning 1.5](https://docs.microsoft.com/windows/win32/direct3d12/dml-version-history)
-* [BluetoothCacheMode enum](https://docs.microsoft.com/uwp/api/windows.devices.bluetooth.bluetoothcachemode) and [BluetoothLEAdvertisementFilter class](https://docs.microsoft.com/uwp/api/windows.devices.bluetooth.advertisement.bluetoothleadvertisementfilter)
 
-### New Content
+Expanded Project Reunion docs for 0.8 Preview release, including:
 
-* [Visual Studio native debug visualization (natvis) for C++/WinRT](https://docs.microsoft.com/windows/uwp/cpp-and-winrt-apis/natvis)
-* [ winrt::try_get_activation_factory function template](https://docs.microsoft.com/uwp/cpp-ref-for-winrt/try-get-activation-factory)
-* [Get started with JavaScript](https://docs.microsoft.com/windows/dev-environment/javascript/)
-* [NUMA Support](https://docs.microsoft.com/windows/win32/procthread/numa-support)
-* [Endpoint data loss prevention](https://docs.microsoft.com/windows/win32/lwef/endpointdlp-endpoint-data-loss-prevention)
+
+* [New release channels articles ](/windows/apps/project-reunion/release-channels)
+* [New unpackaged deployment section with four new articles](/windows/apps/project-reunion/deploy-unpackaged-apps)
+* [New app lifecycle articles ](/windows/apps/project-reunion/applifecycle/applifecycle-instancing)
+
+
+### New content
+
+* [A series of daily Bite-sized C++ topics](https://github.com/MicrosoftDocs/windows-devdocs-team/tree/main/bite-sized-cpp)
+* [Run Linux GUI apps on the WSL preview](/windows/wsl/tutorials/gui-apps)
+* [Windows runtime C++ reference](/windows/win32/api/_winrt/)
+* [Endpoint data loss protection](/windows/win32/lwef/endpointdlp-endpoint-data-loss-prevention)
+
+### Updated content
+
+* [DirectX and XAML intertop](/windows/uwp/gaming/directx-and-xaml-interop)
+* [Windows.Storage.AccessCache](/uwp/api/windows.storage.accesscache)
+* [Porting Microsoft::WRL::Wrappers](/windows/uwp/cpp-and-winrt-apis/move-to-winrt-from-wrl)
+* [Rust for Windows RSS reader tutorial](/windows/dev-environment/rust/rss-reader-rust-for-windows)
+* [MKV file support](/windows/win32/medfound/mkv-support)
+
+### Developer tool updates
+
+[Windows Terminal](/windows/terminal/)
+  * [Updated mouse interactions](/windows/terminal/tips-and-tricks#mouse-interaction)
+
+v1.8 features moving out of preview include:
+  * [useApplicationTitle](/windows/terminal/command-line-arguments?tabs=windows#using-application-title) 
+  * [Color scheme](/windows/terminal/command-line-arguments?tabs=windows#color-scheme)
+  * [Ability to target Settings UI](/windows/terminal/customize-settings/actions#open-settings-files)
+  * [tabSwitcherMode](/windows/terminal/customize-settings/actions#actions-6)
+  * [Rename window](/windows/terminal/customize-settings/actions#rename-window)
+  * [Open window rename dialog](/windows/terminal/customize-settings/actions#open-window-rename-dialog)
+  * [Unfocused appearance settings](/windows/terminal/customize-settings/profile-appearance#unfocused-appearance-settings)
+
+v1.9 new preview features include:
+  * [Quake mode](/windows/terminal/tips-and-tricks#quake-mode)
+  * [Global commands](/windows/terminal/customize-settings/actions#global-commands)
+  * [Remove trailing whitespace](/windows/terminal/customize-settings/interaction#remove-trailing-white-space-in-rectangular-selection-preview)
+  * [Auto-detect URLs](/windows/utomatically-detect-urls-and-make-them-clickable-preview)
+  * [Set default terminal emulator](/windows/terminal/customize-settings/startup#default-terminal-application-preview)
+
+[Windows Subsystem for Linux (WSL)](/windows/wsl/)
+  * [Get started using Git on WSL](/windows/wsl/tutorials/wsl-git): Update to incorporate Git Credential Manager Core
+
+[Windows Package Manager](/windows/package-manager/)
+  * [Updates to package submission process](/windows/package-manager/package/)
+  * [Updates to package submission validation process](/windows/package-manager/package/)
+  * [Updates to package manifest creation](/windows/package-manager/package/repository)
+  * [Updates to winget commands](/windows/package-manager/winget)
 
 ## Tabs vs. Spaces Show
 
 * [What’s new with Microsoft Edge](https://channel9.msdn.com/Shows/Tabs-vs-Spaces/Microsoft-Edge-Web-dev-tools-A11y-and-PWAs)
 
-### Related content 
+### Related content
 
 * [Azure Communication Services](https://azure.microsoft.com/services/communication-services/)
+* [Tutorial: Use Key Vault references in an ASP.NET Core app](/azure/azure-app-configuration/use-key-vault-references-dotnet-core?tabs=core5x)
+* [Use managed identities to access App Configuration](/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x)
+* [Quickstart: Get a network relay token](/azure/communication-services/quickstarts/relay-token?pivots=programming-language-csharp)
+* [Quickstart: Add voice calling to your app](/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling?pivots=platform-windows)
+* [Tutorial: Use Key Vault references in an ASP.NET Core app](/azure/azure-app-configuration/use-key-vault-references-dotnet-core?tabs=core5x)
 
 The following list of topics have seen significant updates in the past month, as per GitHub logs:
 
 ## WinRT conceptual
 
 <ul>
-<li><a href="/windows/uwp/cpp-and-winrt-apis/author-coclasses">Author COM components with C++/WinRT</a></li>
-<li><a href="/windows/uwp/cpp-and-winrt-apis/boxing">Boxing and unboxing values to IInspectable with C++/WinRT</a></li>
-<li><a href="/windows/uwp/cpp-and-winrt-apis/move-to-winrt-from-wrl">Move to C++/WinRT from WRL</a></li>
-<li><a href="/windows/uwp/cpp-and-winrt-apis/natvis">Visual Studio native debug visualization for C++/WinRT</a></li>
-<li><a href="/windows/uwp/cpp-and-winrt-apis/weak-references">Strong and weak references in C++/WinRT</a></li>
-<li><a href="/windows/uwp/csharp-winrt/net-mappings-of-winrt-types">.NET mappings of WinRT types in C#/WinRT</a></li>
-<li><a href="/windows/uwp/debug-test-perf/windows-runtime-components-and-optimizing-interop">Optimizing interop for Windows Runtime components</a></li>
-<li><a href="/windows/uwp/design/style/index">Style for Windows apps</a></li>
-<li><a href="/windows/uwp/dotnet-native/apis-that-rely-on-reflection">APIs That Rely on Reflection</a></li>
-<li><a href="/windows/uwp/dotnet-native/application-element-net-native">Application Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/assembly-element-net-native">Assembly Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/attributeimplies-element-net-native">AttributeImplies Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/directives-element-net-native">Directives Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/event-element-net-native">Event Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/example-handling-exceptions-when-binding-data">Example: Handling Exceptions When Binding Data</a></li>
-<li><a href="/windows/uwp/dotnet-native/example-troubleshooting-dynamic-programming">Example: Troubleshooting Dynamic Programming</a></li>
-<li><a href="/windows/uwp/dotnet-native/field-element-net-native">Field Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/genericparameter-element-net-native"> GenericParameter Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/getting-started-with-net-native">Getting Started with .NET Native</a></li>
-<li><a href="/windows/uwp/dotnet-native/impliestype-element-net-native"> ImpliesType Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/index">Compiling Apps with .NET Native</a></li>
-<li><a href="/windows/uwp/dotnet-native/library-element-net-native">Library Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/measuring-startup-improvement-with-net-native">Measuring Startup Improvement with .NET Native</a></li>
-<li><a href="/windows/uwp/dotnet-native/method-element-net-native"> Method Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/methodinstantiation-element-net-native"> MethodInstantiation Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/migrating-your-windows-store-app-to-net-native">Migrating Your Windows 8.x App to .NET Native</a></li>
-<li><a href="/windows/uwp/dotnet-native/missinginteropdataexception-class-net-native">MissingInteropDataException Class (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/missingmetadataexception-class-net-native">MissingMetadataException Class (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/missingruntimeartifactexception-class-net-native">MissingRuntimeArtifactException Class (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/namespace-element-net-native">Namespace Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/net-native-and-compilation">.NET Native and Compilation</a></li>
-<li><a href="/windows/uwp/dotnet-native/net-native-general-troubleshooting">.NET Native General Troubleshooting</a></li>
-<li><a href="/windows/uwp/dotnet-native/net-native-reflection-api-reference">.NET Native Reflection API Reference</a></li>
-<li><a href="/windows/uwp/dotnet-native/parameter-element-net-native">Parameter Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/property-element-net-native">Property Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/reflection-and-net-native">Reflection and .NET Native</a></li>
-<li><a href="/windows/uwp/dotnet-native/runtime-directive-elements">Runtime Directive Elements</a></li>
-<li><a href="/windows/uwp/dotnet-native/runtime-directive-policy-settings">Runtime Directive Policy Settings</a></li>
-<li><a href="/windows/uwp/dotnet-native/runtime-directives-rd-xml-configuration-file-reference">Runtime Directives (rd.xml) Configuration File Reference</a></li>
-<li><a href="/windows/uwp/dotnet-native/runtime-exceptions-in-net-native-apps">Runtime Exceptions in .NET Native Apps</a></li>
-<li><a href="/windows/uwp/dotnet-native/serialization-and-metadata">Serialization and Metadata</a></li>
-<li><a href="/windows/uwp/dotnet-native/subtypes-element-net-native">Subtypes Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/type-element-net-native">Type Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/typeinstantiation-element-net-native">TypeInstantiation Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/dotnet-native/typeparameter-element-net-native">TypeParameter Element (.NET Native)</a></li>
-<li><a href="/windows/uwp/gaming/complete-code-for-ddstextureloader">Complete code for DDSTextureLoader</a></li>
-<li><a href="/windows/uwp/gaming/directx-add-features">Add features to DirectX games</a></li>
-<li><a href="/windows/uwp/gaming/directx-and-xaml-interop">DirectX and XAML interop</a></li>
-<li><a href="/windows/uwp/gaming/set-up-visual-studio-for-game-development">Visual Studio tools for game programming</a></li>
-<li><a href="/windows/uwp/launch-resume/reserved-uri-scheme-names">Reserved file and URI scheme names</a></li>
-<li><a href="/windows/uwp/launch-resume/useractivities-best-practices">User Activities best practices</a></li>
-<li><a href="/windows/uwp/launch-resume/useractivities">Continue user activity, even across devices</a></li>
-<li><a href="/windows/uwp/monetize/view-and-grant-products-from-a-service">Manage product entitlements from a service</a></li>
-<li><a href="/windows/uwp/packaging/auto-build-package-uwp-apps">Set up automated builds for your UWP app</a></li>
-<li><a href="/windows/uwp/porting/android-ios-uwp-map">Compare platform features between iOS, Android, and Windows 10.</a></li>
-<li><a href="/windows/uwp/publish/store-policies-change-history">Change history for Microsoft Store Policies</a></li>
-<li><a href="/windows/uwp/publish/store-policies">Microsoft Store Policies</a></li>
-<li><a href="/windows/uwp/publish/store-policy-archive/store-policy-7-12">Microsoft Store Policy version 7.12</a></li>
-<li><a href="/windows/uwp/winrt-components/distributing-a-managed-windows-runtime-component">Distributing a managed Windows Runtime Component</a></li>
-<li><a href="/windows/uwp/winrt-components/net-framework-mappings-of-windows-runtime-types">.NET mappings of Windows Runtime types</a></li>
+<li><a href="/windows/uwp/cpp-and-winrt-apis/author-events">Author events in C++/WinRT</a></li>
+<li><a href="/windows/uwp/cpp-and-winrt-apis/concurrency-2">More advanced concurrency and asynchrony with C++/WinRT</a></li>
+<li><a href="/windows/uwp/devices-sensors/aep-service-class-ids">AEP service class IDs</a></li>
 </ul>
+
 
 ## Win32 conceptual
 
@@ -155,10 +144,8 @@ The following list of topics have seen significant updates in the past month, as
 <li><a href="/windows/desktop/direct3d12/directml/ns-directml-dml_cumulative_summation_operator_desc">DML_CUMULATIVE_SUMMATION_OPERATOR_DESC</a></li>
 <li><a href="/windows/desktop/direct3d12/directml/ns-directml-dml_element_wise_atan_yx_operator_desc">DML_ELEMENT_WISE_ATAN_YX_OPERATOR_DESC</a></li>
 <li><a href="/windows/desktop/direct3d12/directml/ns-directml-dml_element_wise_clip_grad_operator_desc">DML_ELEMENT_WISE_CLIP_GRAD_OPERATOR_DESC</a></li>
-<li><a href="/windows/desktop/direct3d12/directml/ns-directml-dml_mean_variance_normalization1_operator_desc">DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC</a></li>
-<li><a href="/windows/desktop/direct3d12/directml/ns-directml-dml_quantized_linear_convolution_operator_desc">DML_QUANTIZED_LINEAR_CONVOLUTION_OPERATOR_DESC</a></li>
-<li><a href="/windows/desktop/direct3d12/directml/ns-directml-dml_roi_align_operator_desc">DML_ROI_ALIGN_OPERATOR_DESC</a></li>
-<li><a href="/windows/desktop/direct3d12/directml/ns-directml-dml_top_k1_operator_desc">DML_TOP_K1_OPERATOR_DESC</a></li>
+<li><a href="/windows/desktop/direct3d12/directml/ns-directml-dml_element_wise_difference_square_operator_desc">DML_ELEMENT_WISE_DIFFERENCE_SQUARE_OPERATOR_DESC</a></li>
+<li><a href="/windows/desktop/direct3d12/directml/ns-directml-dml_local_response_normalization_grad_operator_desc">DML_LOCAL_RESPONSE_NORMALIZATION_GRAD_OPERATOR_DESC</a></li>
 <li><a href="/windows/desktop/direct3d12/specifying-root-signatures-in-hlsl">Specifying Root Signatures in HLSL</a></li>
 <li><a href="/windows/desktop/direct3d12/vrs">Variable-rate shading (VRS)</a></li>
 <li><a href="/windows/desktop/direct3d9/effect-states">Effect States (Direct3D 9)</a></li>
@@ -237,88 +224,237 @@ The following list of topics have seen significant updates in the past month, as
 ## Win32 API reference
 
 <ul>
+<li><a href="/windows/win32/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample (amstream.h) </a></li>
+<li><a href="/windows/win32/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo (amvideo.h) </a></li>
 <li><a href="/windows/win32/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx (amvideo.h) </a></li>
+<li><a href="/windows/win32/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS (atscpsipparser.h) </a></li>
+<li><a href="/windows/win32/api/azroles/nn-azroles-iazapplication3">IAzApplication3 (azroles.h) </a></li>
 <li><a href="/windows/win32/api/azroles/nn-azroles-iazclientcontext">IAzClientContext (azroles.h) </a></li>
 <li><a href="/windows/win32/api/azroles/nn-azroles-iazrole">IAzRole (azroles.h) </a></li>
+<li><a href="/windows/win32/api/azroles/nn-azroles-iaztask">IAzTask (azroles.h) </a></li>
 <li><a href="/windows/win32/api/callobj/nn-callobj-icallframe">ICallFrame (callobj.h) </a></li>
+<li><a href="/windows/win32/api/certadm/nn-certadm-icertadmin2">ICertAdmin2 (certadm.h) </a></li>
+<li><a href="/windows/win32/api/certcli/nn-certcli-icertrequest3">ICertRequest3 (certcli.h) </a></li>
 <li><a href="/windows/win32/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm (certenroll.h) </a></li>
+<li><a href="/windows/win32/api/certenroll/nn-certenroll-icspinformations">ICspInformations (certenroll.h) </a></li>
+<li><a href="/windows/win32/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey (certenroll.h) </a></li>
+<li><a href="/windows/win32/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog (comadmin.h) </a></li>
 <li><a href="/windows/win32/api/commoncontrols/nn-commoncontrols-iimagelist">IImageList (commoncontrols.h) </a></li>
+<li><a href="/windows/win32/api/control/nn-control-ivideowindow">IVideoWindow (control.h) </a></li>
+<li><a href="/windows/win32/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential">ICredentialProviderCredential (credentialprovider.h) </a></li>
+<li><a href="/windows/win32/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache (cscobj.h) </a></li>
+<li><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget (d2d1.h) </a></li>
+<li><a href="/windows/win32/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F (d2d1_1helper.h) </a></li>
 <li><a href="/windows/win32/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F (d2d1helper.h) </a></li>
+<li><a href="/windows/win32/api/d3d10/nn-d3d10-id3d10device">ID3D10Device (d3d10.h) </a></li>
 <li><a href="/windows/win32/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable (d3d10effect.h) </a></li>
+<li><a href="/windows/win32/api/d3d11/nn-d3d11-id3d11device">ID3D11Device (d3d11.h) </a></li>
 <li><a href="/windows/win32/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext (d3d11.h) </a></li>
+<li><a href="/windows/win32/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext (d3d11.h) </a></li>
+<li><a href="/windows/win32/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice (d3d11.h) </a></li>
 <li><a href="/windows/win32/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1 (d3d11_1.h) </a></li>
 <li><a href="/windows/win32/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection">ID3D11ShaderReflection (d3d11shader.h) </a></li>
+<li><a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device (d3d12.h) </a></li>
+<li><a href="/windows/win32/api/d3d9/nn-d3d9-idirect3ddevice9">IDirect3DDevice9 (d3d9.h) </a></li>
+<li><a href="/windows/win32/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex (d3d9.h) </a></li>
+<li><a href="/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9 (d3d9helper.h) </a></li>
+<li><a href="/windows/win32/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7 (ddraw.h) </a></li>
 <li><a href="/windows/win32/api/dinputd/nn-dinputd-idirectinputjoyconfig8">IDirectInputJoyConfig8 (dinputd.h) </a></li>
+<li><a href="/windows/win32/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport (directmanipulation.h) </a></li>
+<li><a href="/windows/win32/api/dvbsiparser/nn-dvbsiparser-idvb_bat">IDVB_BAT (dvbsiparser.h) </a></li>
+<li><a href="/windows/win32/api/dvbsiparser/nn-dvbsiparser-idvb_nit">IDVB_NIT (dvbsiparser.h) </a></li>
+<li><a href="/windows/win32/api/dvbsiparser/nn-dvbsiparser-idvb_sdt">IDVB_SDT (dvbsiparser.h) </a></li>
+<li><a href="/windows/win32/api/dvbsiparser/nn-dvbsiparser-iisdbaudiocomponentdescriptor">IIsdbAudioComponentDescriptor (dvbsiparser.h) </a></li>
+<li><a href="/windows/win32/api/dvbsiparser/nn-dvbsiparser-iisdbdownloadcontentdescriptor">IIsdbDownloadContentDescriptor (dvbsiparser.h) </a></li>
 <li><a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout (dwrite.h) </a></li>
+<li><a href="/windows/win32/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume (endpointvolume.h) </a></li>
 <li><a href="/windows/win32/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription (eventsys.h) </a></li>
+<li><a href="/windows/win32/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl (evr.h) </a></li>
+<li><a href="/windows/win32/api/faxcom/nn-faxcom-ifaxdoc">IFaxDoc (faxcom.h) </a></li>
 <li><a href="/windows/win32/api/faxcom/nn-faxcom-ifaxjob">IFaxJob (faxcom.h) </a></li>
 <li><a href="/windows/win32/api/faxcom/nn-faxcom-ifaxport">IFaxPort (faxcom.h) </a></li>
 <li><a href="/windows/win32/api/faxcom/nn-faxcom-ifaxserver">IFaxServer (faxcom.h) </a></li>
+<li><a href="/windows/win32/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration (faxcomex.h) </a></li>
+<li><a href="/windows/win32/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument (faxcomex.h) </a></li>
 <li><a href="/windows/win32/api/faxcomex/nn-faxcomex-ifaxinboundroutingextension">IFaxInboundRoutingExtension (faxcomex.h) </a></li>
+<li><a href="/windows/win32/api/faxcomex/nn-faxcomex-ifaxincomingjob">IFaxIncomingJob (faxcomex.h) </a></li>
 <li><a href="/windows/win32/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2 (faxcomex.h) </a></li>
+<li><a href="/windows/win32/api/faxcomex/nn-faxcomex-ifaxoutgoingjob">IFaxOutgoingJob (faxcomex.h) </a></li>
+<li><a href="/windows/win32/api/faxcomex/nn-faxcomex-ifaxreceiptoptions">IFaxReceiptOptions (faxcomex.h) </a></li>
 <li><a href="/windows/win32/api/faxcomex/nn-faxcomex-ifaxsender">IFaxSender (faxcomex.h) </a></li>
+<li><a href="/windows/win32/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer (faxcomex.h) </a></li>
+<li><a href="/windows/win32/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassificationmanager">IFsrmClassificationManager (fsrmpipeline.h) </a></li>
 <li><a href="/windows/win32/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassificationmanager2">IFsrmClassificationManager2 (fsrmpipeline.h) </a></li>
 <li><a href="/windows/win32/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjob">IFsrmFileManagementJob (fsrmreports.h) </a></li>
 <li><a href="/windows/win32/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob (fsrmreports.h) </a></li>
+<li><a href="/windows/win32/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject (gpedit.h) </a></li>
+<li><a href="/windows/win32/api/gpmgmt/nn-gpmgmt-igpmconstants">IGPMConstants (gpmgmt.h) </a></li>
+<li><a href="/windows/win32/api/gpmgmt/nn-gpmgmt-igpmstartergpo">IGPMStarterGPO (gpmgmt.h) </a></li>
+<li><a href="/windows/win32/api/iads/nn-iads-iads">IADs (iads.h) </a></li>
+<li><a href="/windows/win32/api/iads/nn-iads-iadscomputer">IADsComputer (iads.h) </a></li>
 <li><a href="/windows/win32/api/iads/nn-iads-iadscomputeroperations">IADsComputerOperations (iads.h) </a></li>
+<li><a href="/windows/win32/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations (iads.h) </a></li>
+<li><a href="/windows/win32/api/iads/nn-iads-iadsfileshare">IADsFileShare (iads.h) </a></li>
+<li><a href="/windows/win32/api/iads/nn-iads-iadso">IADsO (iads.h) </a></li>
+<li><a href="/windows/win32/api/iads/nn-iads-iadsprintjob">IADsPrintJob (iads.h) </a></li>
+<li><a href="/windows/win32/api/iads/nn-iads-iadsprintjoboperations">IADsPrintJobOperations (iads.h) </a></li>
 <li><a href="/windows/win32/api/iads/nn-iads-iadsprintqueue">IADsPrintQueue (iads.h) </a></li>
+<li><a href="/windows/win32/api/iads/nn-iads-iadsproperty">IADsProperty (iads.h) </a></li>
 <li><a href="/windows/win32/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor (iads.h) </a></li>
+<li><a href="/windows/win32/api/iads/nn-iads-iadsservice">IADsService (iads.h) </a></li>
+<li><a href="/windows/win32/api/iads/nn-iads-iadssession">IADsSession (iads.h) </a></li>
 <li><a href="/windows/win32/api/iads/nn-iads-iadssyntax">IADsSyntax (iads.h) </a></li>
+<li><a href="/windows/win32/api/iads/nn-iads-iadsuser">IADsUser (iads.h) </a></li>
+<li><a href="/windows/win32/api/icm/ns-icm-profileheader">PROFILEHEADER </a></li>
+<li><a href="/windows/win32/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder (imapi.h) </a></li>
+<li><a href="/windows/win32/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex (imapi2.h) </a></li>
 <li><a href="/windows/win32/api/imapi2/nn-imapi2-irawcdimagecreator">IRawCDImageCreator (imapi2.h) </a></li>
+<li><a href="/windows/win32/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage (imapi2fs.h) </a></li>
+<li><a href="/windows/win32/api/inked/nn-inked-iinkedit">IInkEdit (inked.h) </a></li>
+<li><a href="/windows/win32/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder (iwstdec.h) </a></li>
 <li><a href="/windows/win32/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor (manipulations.h) </a></li>
+<li><a href="/windows/win32/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService (mbnapi.h) </a></li>
+<li><a href="/windows/win32/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin (mbnapi.h) </a></li>
 <li><a href="/windows/win32/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject (mediaobj.h) </a></li>
+<li><a href="/windows/win32/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest (mfidl.h) </a></li>
+<li><a href="/windows/win32/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode (mfidl.h) </a></li>
 <li><a href="/windows/win32/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices (mfidl.h) </a></li>
 <li><a href="/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine (mfmediaengine.h) </a></li>
+<li><a href="/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx (mfmediaengine.h) </a></li>
 <li><a href="/windows/win32/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes (mfobjects.h) </a></li>
+<li><a href="/windows/win32/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream (mfobjects.h) </a></li>
 <li><a href="/windows/win32/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem (mfplay.h) </a></li>
 <li><a href="/windows/win32/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform (mftransform.h) </a></li>
+<li><a href="/windows/win32/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl (micaut.h) </a></li>
 <li><a href="/windows/win32/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT (mpeg2psiparser.h) </a></li>
+<li><a href="/windows/win32/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles (msctf.h) </a></li>
 <li><a href="/windows/win32/api/msinkaut/nn-msinkaut-iinkdisp">IInkDisp (msinkaut.h) </a></li>
 <li><a href="/windows/win32/api/msinkaut/nn-msinkaut-iinkdrawingattributes">IInkDrawingAttributes (msinkaut.h) </a></li>
 <li><a href="/windows/win32/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate (msinkaut.h) </a></li>
+<li><a href="/windows/win32/api/msinkaut/nn-msinkaut-iinkrecognizercontext">IInkRecognizerContext (msinkaut.h) </a></li>
 <li><a href="/windows/win32/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp (msinkaut.h) </a></li>
+<li><a href="/windows/win32/api/msopc/nn-msopc-iopcdigitalsignature">IOpcDigitalSignature (msopc.h) </a></li>
 <li><a href="/windows/win32/api/msopc/nn-msopc-iopcsigningoptions">IOpcSigningOptions (msopc.h) </a></li>
+<li><a href="/windows/win32/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem (mstask.h) </a></li>
 <li><a href="/windows/win32/api/mstask/nn-mstask-itask">ITask (mstask.h) </a></li>
 <li><a href="/windows/win32/api/msvidctl/nn-msvidctl-imsvidctl">IMSVidCtl (msvidctl.h) </a></li>
+<li><a href="/windows/win32/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper (ndhelper.h) </a></li>
 <li><a href="/windows/win32/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFwAuthorizedApplication (netfw.h) </a></li>
+<li><a href="/windows/win32/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort (netfw.h) </a></li>
+<li><a href="/windows/win32/api/netfw/nn-netfw-inetfwprofile">INetFwProfile (netfw.h) </a></li>
+<li><a href="/windows/win32/api/netfw/nn-netfw-inetfwrule">INetFwRule (netfw.h) </a></li>
 <li><a href="/windows/win32/api/netfw/nn-netfw-inetfwrule3">INetFwRule3 (netfw.h) </a></li>
+<li><a href="/windows/win32/api/netlistmgr/nn-netlistmgr-inetwork">INetwork (netlistmgr.h) </a></li>
+<li><a href="/windows/win32/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo (oaidl.h) </a></li>
 <li><a href="/windows/win32/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo (oaidl.h) </a></li>
+<li><a href="/windows/win32/api/oleacc/nn-oleacc-iaccessible">IAccessible (oleacc.h) </a></li>
 <li><a href="/windows/win32/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel (peninputpanel.h) </a></li>
 <li><a href="/windows/win32/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB (photoacquire.h) </a></li>
+<li><a href="/windows/win32/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings (photoacquire.h) </a></li>
 <li><a href="/windows/win32/api/pla/nn-pla-idatacollector">IDataCollector (pla.h) </a></li>
 <li><a href="/windows/win32/api/pla/nn-pla-idatacollectorset">IDataCollectorSet (pla.h) </a></li>
 <li><a href="/windows/win32/api/pla/nn-pla-idatamanager">IDataManager (pla.h) </a></li>
+<li><a href="/windows/win32/api/pla/nn-pla-ivaluemap">IValueMap (pla.h) </a></li>
+<li><a href="/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities (portabledeviceapi.h) </a></li>
+<li><a href="/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession (rdpencomapi.h) </a></li>
+<li><a href="/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer (rdpencomapi.h) </a></li>
+<li><a href="/windows/win32/api/richole/nn-richole-iricheditole">IRichEditOle (richole.h) </a></li>
 <li><a href="/windows/win32/api/rometadataapi/nn-rometadataapi-imetadatatables">IMetaDataTables (rometadataapi.h) </a></li>
 <li><a href="/windows/win32/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus (rtscom.h) </a></li>
+<li><a href="/windows/win32/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin (rtscom.h) </a></li>
+<li><a href="/windows/win32/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection (sbtsv.h) </a></li>
+<li><a href="/windows/win32/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore (sbtsv.h) </a></li>
+<li><a href="/windows/win32/api/searchapi/nn-searchapi-isearchcatalogmanager">ISearchCatalogManager (searchapi.h) </a></li>
+<li><a href="/windows/win32/api/searchapi/nn-searchapi-isearchcrawlscopemanager">ISearchCrawlScopeManager (searchapi.h) </a></li>
+<li><a href="/windows/win32/api/segment/nn-segment-imsvidstreambuffersink3">IMSVidStreamBufferSink3 (segment.h) </a></li>
 <li><a href="/windows/win32/api/segment/nn-segment-imsvidvideorenderer">IMSVidVideoRenderer (segment.h) </a></li>
 <li><a href="/windows/win32/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService (shdeprecated.h) </a></li>
+<li><a href="/windows/win32/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2 (shdeprecated.h) </a></li>
 <li><a href="/windows/win32/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData (shimgdata.h) </a></li>
 <li><a href="/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop (shlobj_core.h) </a></li>
+<li><a href="/windows/win32/api/shlobj_core/nn-shlobj_core-ishellfolderview">IShellFolderView (shlobj_core.h) </a></li>
+<li><a href="/windows/win32/api/shobjidl/nn-shobjidl-inamespacetreecontrolevents">INameSpaceTreeControlEvents (shobjidl.h) </a></li>
+<li><a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper (shobjidl_core.h) </a></li>
+<li><a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize">IFileDialogCustomize (shobjidl_core.h) </a></li>
 <li><a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation (shobjidl_core.h) </a></li>
+<li><a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifileoperationprogresssink">IFileOperationProgressSink (shobjidl_core.h) </a></li>
 <li><a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl (shobjidl_core.h) </a></li>
+<li><a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary (shobjidl_core.h) </a></li>
 <li><a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLinkA (shobjidl_core.h) </a></li>
 <li><a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishelllinkw">IShellLinkW (shobjidl_core.h) </a></li>
+<li><a href="/windows/win32/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker (spellcheck.h) </a></li>
+<li><a href="/windows/win32/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer (strmif.h) </a></li>
+<li><a href="/windows/win32/api/strmif/nn-strmif-iamexttransport">IAMExtTransport (strmif.h) </a></li>
+<li><a href="/windows/win32/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 (strmif.h) </a></li>
+<li><a href="/windows/win32/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 (strmif.h) </a></li>
+<li><a href="/windows/win32/api/strmif/nn-strmif-imediasample">IMediaSample (strmif.h) </a></li>
+<li><a href="/windows/win32/api/strmif/nn-strmif-imediaseeking">IMediaSeeking (strmif.h) </a></li>
+<li><a href="/windows/win32/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration (syncregistration.h) </a></li>
+<li><a href="/windows/win32/api/tapi3/nn-tapi3-itagent">ITAgent (tapi3.h) </a></li>
+<li><a href="/windows/win32/api/tapi3/nn-tapi3-itagentsession">ITAgentSession (tapi3.h) </a></li>
+<li><a href="/windows/win32/api/tapi3cc/nn-tapi3cc-itagent">ITAgent (tapi3cc.h) </a></li>
+<li><a href="/windows/win32/api/tapi3cc/nn-tapi3cc-itagentsession">ITAgentSession (tapi3cc.h) </a></li>
+<li><a href="/windows/win32/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl (tapi3if.h) </a></li>
+<li><a href="/windows/win32/api/tapi3if/nn-tapi3if-ittapi">ITTAPI (tapi3if.h) </a></li>
+<li><a href="/windows/win32/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder (taskschd.h) </a></li>
+<li><a href="/windows/win32/api/termmgr/nn-termmgr-itpluggableterminalclassregistration">ITPluggableTerminalClassRegistration (termmgr.h) </a></li>
+<li><a href="/windows/win32/api/textserv/nl-textserv-itexthost">ITextHost (textserv.h) </a></li>
+<li><a href="/windows/win32/api/textserv/nl-textserv-itextservices">ITextServices (textserv.h) </a></li>
+<li><a href="/windows/win32/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor (textstor.h) </a></li>
 <li><a href="/windows/win32/api/tom/nn-tom-itextdocument">ITextDocument (tom.h) </a></li>
+<li><a href="/windows/win32/api/tom/nn-tom-itextpara2">ITextPara2 (tom.h) </a></li>
+<li><a href="/windows/win32/api/tom/nn-tom-itextrange">ITextRange (tom.h) </a></li>
+<li><a href="/windows/win32/api/tom/nn-tom-itextrange2">ITextRange2 (tom.h) </a></li>
+<li><a href="/windows/win32/api/tom/nn-tom-itextstrings">ITextStrings (tom.h) </a></li>
+<li><a href="/windows/win32/api/tuner/nn-tuner-icomponenttype">IComponentType (tuner.h) </a></li>
 <li><a href="/windows/win32/api/tuner/nn-tuner-ituningspace">ITuningSpace (tuner.h) </a></li>
 <li><a href="/windows/win32/api/uianimation/nn-uianimation-iuianimationmanager">IUIAnimationManager (uianimation.h) </a></li>
+<li><a href="/windows/win32/api/uianimation/nn-uianimation-iuianimationstoryboard">IUIAnimationStoryboard (uianimation.h) </a></li>
 <li><a href="/windows/win32/api/uianimation/nn-uianimation-iuianimationtransitionlibrary2">IUIAnimationTransitionLibrary2 (uianimation.h) </a></li>
 <li><a href="/windows/win32/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation (uiautomationclient.h) </a></li>
 <li><a href="/windows/win32/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement (uiautomationclient.h) </a></li>
+<li><a href="/windows/win32/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange">IUIAutomationTextRange (uiautomationclient.h) </a></li>
+<li><a href="/windows/win32/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern2">IUIAutomationTransformPattern2 (uiautomationclient.h) </a></li>
 <li><a href="/windows/win32/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider (uiautomationcore.h) </a></li>
+<li><a href="/windows/win32/api/vds/nn-vds-ivdsservice">IVdsService (vds.h) </a></li>
+<li><a href="/windows/win32/api/vidcap/nn-vidcap-icameracontrol">ICameraControl (vidcap.h) </a></li>
+<li><a href="/windows/win32/api/vidcap/nn-vidcap-ivideoprocamp">IVideoProcAmp (vidcap.h) </a></li>
+<li><a href="/windows/win32/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents (vsbackup.h) </a></li>
+<li><a href="/windows/win32/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent (vswriter.h) </a></li>
 <li><a href="/windows/win32/api/wabdefs/nn-wabdefs-iabcontainer">IABContainer (wabdefs.h) </a></li>
 <li><a href="/windows/win32/api/wabdefs/nn-wabdefs-idistlist">IDistList (wabdefs.h) </a></li>
 <li><a href="/windows/win32/api/wabiab/nn-wabiab-iaddrbook">IAddrBook (wabiab.h) </a></li>
 <li><a href="/windows/win32/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo (wcmconfig.h) </a></li>
+<li><a href="/windows/win32/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevice">IActiveBasicDevice (windows.media.streaming.h) </a></li>
 <li><a href="/windows/win32/api/windows.media.streaming/nn-windows-media-streaming-ibasicdevice">IBasicDevice (windows.media.streaming.h) </a></li>
+<li><a href="/windows/win32/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase (winsync.h) </a></li>
+<li><a href="/windows/win32/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge (winsync.h) </a></li>
 <li><a href="/windows/win32/api/winuser/ns-winuser-mouseinput">MOUSEINPUT (winuser.h) </a></li>
+<li><a href="/windows/win32/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile (wmcontainer.h) </a></li>
 <li><a href="/windows/win32/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingservices">IWindowsMediaLibrarySharingServices (wmlss.h) </a></li>
+<li><a href="/windows/win32/api/wmp/nn-wmp-iwmpcontrols">IWMPControls (wmp.h) </a></li>
+<li><a href="/windows/win32/api/wmp/nn-wmp-iwmpmedia">IWMPMedia (wmp.h) </a></li>
 <li><a href="/windows/win32/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork (wmp.h) </a></li>
+<li><a href="/windows/win32/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice (wmp.h) </a></li>
+<li><a href="/windows/win32/api/wmsdkidl/nn-wmsdkidl-iwmprofile">IWMProfile (wmsdkidl.h) </a></li>
 <li><a href="/windows/win32/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced (wmsdkidl.h) </a></li>
+<li><a href="/windows/win32/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress (wuapi.h) </a></li>
+<li><a href="/windows/win32/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher (wuapi.h) </a></li>
 <li><a href="/windows/win32/api/xblidpauthmanager/nn-xblidpauthmanager-ixblidpauthtokenresult">IXblIdpAuthTokenResult (xblidpauthmanager.h) </a></li>
+<li><a href="/windows/win32/api/xenroll/nn-xenroll-icenroll">ICEnroll (xenroll.h) </a></li>
+<li><a href="/windows/win32/api/xenroll/nn-xenroll-icenroll3">ICEnroll3 (xenroll.h) </a></li>
 <li><a href="/windows/win32/api/xenroll/nn-xenroll-icenroll4">ICEnroll4 (xenroll.h) </a></li>
+<li><a href="/windows/win32/api/xenroll/nn-xenroll-ienroll">IEnroll (xenroll.h) </a></li>
 <li><a href="/windows/win32/api/xenroll/nn-xenroll-ienroll2">IEnroll2 (xenroll.h) </a></li>
 <li><a href="/windows/win32/api/xenroll/nn-xenroll-ienroll4">IEnroll4 (xenroll.h) </a></li>
+<li><a href="/windows/win32/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssigningoptions">IXpsSigningOptions (xpsdigitalsignature.h) </a></li>
+<li><a href="/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties (xpsobjectmodel.h) </a></li>
+<li><a href="/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs (xpsobjectmodel.h) </a></li>
 <li><a href="/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphseditor">IXpsOMGlyphsEditor (xpsobjectmodel.h) </a></li>
+<li><a href="/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory (xpsobjectmodel.h) </a></li>
+<li><a href="/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference (xpsobjectmodel.h) </a></li>
+<li><a href="/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath">IXpsOMPath (xpsobjectmodel.h) </a></li>
+<li><a href="/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual (xpsobjectmodel.h) </a></li>
 </ul>
 
 ## UWP API reference
@@ -328,6 +464,7 @@ The following list of topics have seen significant updates in the past month, as
 <li><a href="/uwp/api/windows.foundation.numerics.windows.foundation.numerics">N:Windows.Foundation.Numerics</a></li>
 <li><a href="/uwp/api/windows.graphics.rectint">Windows.Graphics.RectInt32</a></li>
 <li><a href="/uwp/api/windows.management.policies.namedpolicy">Windows.Management.Policies.NamedPolicy</a></li>
+<li><a href="/uwp/api/windows.storage.fileio">Windows.Storage.FileIO</a></li>
 <li><a href="/uwp/api/windows.storage.storagelibrarychangetracker">Windows.Storage.StorageLibraryChangeTracker</a></li>
 <li><a href="/uwp/api/windows.system.launcher.launchfileasync">Windows.System.Launcher.LaunchFileAsync(Windows.Storage.IStorageFile)</a></li>
 <li><a href="/uwp/api/windows.ui.xaml.controls.primitives.popup">Windows.UI.Xaml.Controls.Primitives.Popup</a></li>
